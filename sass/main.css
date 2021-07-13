@@ -112,4 +112,49 @@ p {
   color: #044e53;
   background: #88ebf2;
 }
+
+.hero {
+  min-height: 100vh;
+  background: #2caeba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-banner {
+  text-align: center;
+  color: #fff;
+  padding: 0 3rem;
+}
+
+.hero .hero-banner h1 {
+  text-transform: uppercase;
+}
+
+.hero .hero-banner p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  letter-spacing: 0.25rem;
+}
+
+.hero .hero-banner .hero-btn {
+  padding: 0.9rem 1.6rem;
+  font-size: 1.25rem;
+  background: #fff;
+  color: #2caeba;
+}
+
+.hero .hero-banner .hero-btn:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
 /*# sourceMappingURL=main.css.map */

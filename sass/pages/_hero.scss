@@ -1,0 +1,38 @@
+.hero {
+  min-height: 100vh;
+  background: $clr-primary-5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-banner {
+    text-align: center;
+    color: $clr-white;
+    padding: 0 3rem;
+
+    & h1 {
+      text-transform: uppercase;
+    }
+
+    & p {
+      max-width: 35rem;
+      margin-left: auto;
+      margin-right: auto;
+      color: $clr-white;
+      letter-spacing: $spacing;
+    }
+
+    .hero-btn {
+      padding: 0.9rem 1.6rem;
+      font-size: 1.25rem;
+      background: $clr-white;
+      color: $clr-primary-5;
+
+      &:hover {
+        background: transparent;
+        color: $clr-white;
+        border-color: $clr-white;
+      }
+    }
+  }
+}
