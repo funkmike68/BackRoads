@@ -142,6 +142,58 @@ p {
   background: #88ebf2;
 }
 
+.footer {
+  background: #102a42;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer .footer-links,
+.footer .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1.5rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .footer-link {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: 0.25rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.footer .footer-link:hover {
+  color: #2caeba;
+}
+
+.footer .footer-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #88ebf2;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.footer .footer-icon:hover {
+  color: #fff;
+}
+
+.footer .copyright {
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  color: #fff;
+}
+
 .about-img,
 .about-info {
   margin-bottom: 2rem;
